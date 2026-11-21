@@ -1,0 +1,16 @@
+[
+  {
+    "job_id": "JOB-001",
+    "title": "Python Engineer",
+    "company": "Example Software",
+    "location": "Seattle, WA",
+    "job_url": "https://example.com/jobs/job-001"
+  },
+  {
+    "job_id": "JOB-002",
+    "title": "Data Analyst",
+    "company": "Example Analytics",
+    "location": "Remote",
+    "job_url": "https://example.com/jobs/job-002"
+  }
+]
