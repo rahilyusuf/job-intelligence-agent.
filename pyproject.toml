@@ -1,0 +1,23 @@
+[project]
+name = "job-intelligence-agent"
+version = "0.1.0"
+description = "A Google ADK agent for conversational job intelligence"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = ["google-adk>=2.15.0,<2.16.0"]
+
+[dependency-groups]
+dev = ["pytest", "ruff"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["agents"]
+
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+extend-select = ["I", "UP"]
